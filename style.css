@@ -1,3 +1,7 @@
 body {
     background-color: aqua;
 }
+button {
+    background-color: azure;
+    color: rgb(40, 7, 71);
+}
