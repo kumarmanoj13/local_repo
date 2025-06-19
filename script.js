@@ -22,3 +22,9 @@ btn.addEventListener("click", () => {
         count = 0
     }
 })
+
+let btn2 = document.getElementsByClassName("btn")[0];
+let para = document.getElementsByTagName("p")[0];
+btn2.addEventListener("click", () => {
+    para.innerText = "Hello Ghost!";
+})
